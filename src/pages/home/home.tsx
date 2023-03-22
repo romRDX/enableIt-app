@@ -29,7 +29,7 @@ const Home = () => {
           <p>Because this was more of a simple test, i limited the size of the pagination, this should be enough even tough this API returns a lot of data.</p>
           <p>I created a more simplistic layout and focused on the quality of the code and extra features, so i apologize if things are not really beautiful in here.</p>
           <p>To make it easier, here it is the link to my linkedin where you can take a deeper look at my skills:</p>
-          <p><a href="https://www.linkedin.com/in/romullo-sander-27491795/" target="_blank">Linkedin</a></p>
+          <p><a rel="noreferrer" href="https://www.linkedin.com/in/romullo-sander-27491795/" target="_blank">Linkedin</a></p>
           <p>Thank you very much for the opportunity!</p>
 
         </aside>

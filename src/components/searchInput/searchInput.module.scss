@@ -1,0 +1,36 @@
+
+.searchInput {
+    display: flex;
+      justify-content: space-between;
+      margin: 0 auto 30px auto;
+      border: 2px solid blue;
+      border-radius: 10px;
+      padding: 8px 8px;
+      display: flex;
+      width: fit-content;
+
+      svg {
+        margin-right: 5px;
+      }
+
+      input {
+
+        width: 80%;
+    
+        &::placeholder {
+          font-size: 18px;
+        }
+    
+        &::after {
+          content: "\f002";
+          font-family: "Font Awesome 5 Free";
+          position: absolute;
+          top: 50%;
+          right: 10px;
+          transform: translateY(-50%);
+          font-size: 18px;
+          color: #ccc;
+        }
+        
+      }
+}

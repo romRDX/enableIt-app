@@ -14,7 +14,7 @@ const SearchInput: React.FC<SearchInputProps> = ({ setFilter }) => {
 
   const handleOnType = useCallback((e: React.ChangeEvent<HTMLInputElement>) => {
     setFilter(e.target.value)
-  }, []);
+  }, [setFilter]);
 
   const handleResetField = () => {
     if(inputRef.current){
